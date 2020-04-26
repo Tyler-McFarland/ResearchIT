@@ -4,10 +4,10 @@
     <h3>Create an account</h3>
     <form>
         <label for="name">Enter Name: </label>
-            <input type="text" required placeholder="Default Name" name="name" />
-        <br />
+            <input type="text" required name="name" />
+        <br /><br />
         <label for="email">Enter Email: </label>
-            <input type="email" required placeholder="f.fake@fake.com" />
+            <input type="email" required placeholder="Email@email.com" name="email"/>
         <br />
         <input type="submit" value="Submit" onclick="validateAccount()"/>
     </form>
