@@ -2,6 +2,35 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #20234D;
+    color: #ffd046;
+}
+
+input {
+    background-color: #baab68;
+    color: #20234D;
+    border-color: #090A1C;
+}
+
+.btn {
+    background-color: #baab68;
+    color: #20234D;
+    border-color: #090A1C;
+}
+
+.jumbotron {
+    background-color: #baab68;
+    color: #20234D;
+}
+
+.navbar-inverse {
+    background-color: #090A1C;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+    background-color: #090A1C;
+    color: #ffd046;
 }
 
 /* Wrapping element */
