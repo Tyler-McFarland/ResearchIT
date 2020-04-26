@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResearchItV2", "ResearchItV2\ResearchItV2.csproj", "{120FC6E6-51D0-449B-9D8C-428B22248F69}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseStuff", "DatabaseStuff", "{07302765-A23A-4011-B7AA-41ED15B85C10}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\OneDrive\Documents\script.sql = ..\..\..\..\OneDrive\Documents\script.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

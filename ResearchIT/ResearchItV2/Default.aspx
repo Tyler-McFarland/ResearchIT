@@ -16,14 +16,14 @@
                 <a class="btn btn-default" href="/Tasks">Learn more &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4">
+<%--        <div class="col-md-4">
             <h2>File Cleanup</h2>
             <p>
                 We need to talk about this as it&#39;s most likely going to end up using EF.&nbsp; I wonder if we can find a hosting database for free? probably not.&nbsp; If not cleaning up their data related to this program maybe offer a directory cleanup option?</p>
             <p>
                 <a class="btn btn-default" href="/FileCleanup">Learn more &raquo;</a>
             </p>
-        </div>
+        </div>--%>
         <div class="col-md-4">
             <h2>Not really sure what we want here</h2>
             <p>
