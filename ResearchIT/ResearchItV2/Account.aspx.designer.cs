@@ -11,7 +11,7 @@ namespace ResearchItV2
 {
 
 
-    public partial class FileCleanup
+    public partial class Account
     {
     }
 }
