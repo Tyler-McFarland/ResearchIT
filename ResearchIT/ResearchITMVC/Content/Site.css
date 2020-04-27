@@ -12,6 +12,11 @@ input {
     border-color: #090A1C;
 }
 
+button {
+    background-color: #20234D;
+    border-color: #baab68;
+}
+
 .btn {
     background-color: #baab68;
     color: #20234D;
@@ -25,6 +30,10 @@ input {
 
 .navbar-inverse {
     background-color: #090A1C;
+}
+
+hr {
+    border-color: #baab68;
 }
 
     .navbar-inverse .navbar-brand,

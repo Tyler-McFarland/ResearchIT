@@ -1,13 +1,23 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Tasks";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <script type="text/javascript" src="/Scripts/tasks.js"></script>
+<br />
 <!-- this button should be used to create a new card to use -->
-<button onclick="return drawRectangle();">New Card</button>
+<button onclick="return makeTask();">New Task</button>
 <br />
 <br />
-<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;"></canvas>
-
+<div class="form-popup" id="myForm" style="display:none">
+    <form class="form-container">
+        <h1>Enter task:</h1>
+        <input type="text" placeholder="Task" name="task" required />
+        <br />
+        <button onclick="return search();">Search!</button>
+        <br />
+        <br />
+        <button onclick="return cancelTask();">Cancel</button>
+    </form>
+</div>
+@*<canvas id="myCanvas" width="775" height="525"></canvas>*@
