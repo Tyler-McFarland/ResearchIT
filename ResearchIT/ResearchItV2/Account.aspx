@@ -2,7 +2,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script src="/Scripts/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="/Scripts/Account.js"></script>
+    <script type="text/javascript" src="Scripts/Account.js"></script>
+
     <h3>Create an account</h3>
     <form>
         <label for="name">Enter Name: </label>
