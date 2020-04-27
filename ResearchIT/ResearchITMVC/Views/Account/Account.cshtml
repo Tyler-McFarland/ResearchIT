@@ -1,16 +1,26 @@
-﻿@{
+﻿
+@{
     ViewBag.Title = "Account";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<script src="/Scripts/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="Scripts/Account.js"></script>
+
+@section scripts{
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/Account.js"></script>
+}
+
+
 <h3>Create an account</h3>
+
+
+
+
 <form>
     <label for="name">Enter Name: </label>
-    <input type="text" id="name" required placeholder="Name" name="name" />
+    <input type="text" id="name" required placeholder="Default Name" name="name" />
     <br />
     <label for="email">Enter Email: </label>
-    <input type="email" id="email" required placeholder="Email@email.com" name="email" />
+    <input type="email" id="email" required placeholder="f.fake@fake.com" />
     <br />
     <label for="password">Enter Password: </label>
     <input type="password" id="pass1" required name="password" />
@@ -20,3 +30,4 @@
     <br />
     <input type="submit" value="Submit" onclick="return validateAccount()" />
 </form>
+

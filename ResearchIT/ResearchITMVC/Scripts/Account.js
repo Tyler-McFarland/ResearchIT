@@ -25,15 +25,7 @@
 }
 
 function sendData(name, email, pass1) {
-    PageMethods.sendData(name, email, pass1);
-    return false;
-}
-
-function onSuccess(result) {
-    console.log(result);
-    return false;
-}
-function onSuccess(result) {
-    console.log('bad: ' + result);
+    var url = 'sendAccount';
+    window.location.href = url + '/' + name + '/' + email + '/' + pass1;
     return false;
 }
